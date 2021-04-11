@@ -1,0 +1,474 @@
+.container-left{
+    width: 50%;
+    min-height: 100%;
+    float: left;
+    background-color: rgb(116, 202, 254);
+    background-image: url(../img/birdR2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+html,body{
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+nav{
+    font-size: 15px;
+    width: 100%;
+    /* font-size:20pt; */
+    background-color: white;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    padding: 5px;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    
+}
+
+.nav-item{
+    display: inline-block;
+    flex-direction: row;
+    text-align: center;
+}
+
+.nav-link{
+    color: #6c757d;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+    flex-wrap:wrap;
+    
+}
+
+.nav-active {
+    color: #6c757d;
+    padding: 5px;
+    display: inline-block;
+    flex-wrap:wrap;
+}
+
+.nav-link2{
+    color: #6c757d;
+    padding: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+    
+}
+
+.content-center{
+    width: 390px;
+    height: 300px;
+    margin: auto;
+    margin-top: 33%;
+}
+
+.content-text{
+    font-weight: 800;
+    font-size: 19px;
+    color:white;
+    padding: 0;
+    font-family: arial;
+}
+
+.center-img{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.imgclass{
+    margin-top: 18px;
+    width: 46px;
+    height: 39px;
+}
+
+.content{
+    padding:0px;
+}
+
+.container-right{
+    width: 50%;
+    min-height: 100%;
+    float: right;
+       
+}
+
+.center-img2{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content-text2{
+    font-weight: 800;
+    font-size: 24px;
+    color:black;
+    padding: 0;
+    font-family: arial;
+}
+
+.imgclass2{
+    margin-top: 18px;
+    width: 57.6px;
+    height: 32.4px;
+    padding-bottom: 18px;
+}
+
+.imgclass3{
+    margin-top: 8px;
+    width: 57.6px;
+    height: 32.4px;
+}
+
+.content-center2{
+    width: 390px;
+    height: 300px;
+    margin: auto;
+    margin-top: 22%;
+}
+
+.content2{
+    padding:0px;
+    margin-top: 20px;
+}
+
+.content-text3{
+    font-weight: 600;
+    font-size: 15px;
+    color:black;
+    padding: 0;
+    font-family: arial;
+}
+
+
+.center-img2 input[name=regist] {
+    /* font */
+    color: white;
+    font-size: 20px;
+    font-family: helvetica;
+    background-color:rgb(0, 165, 251);
+    margin-bottom: 10px;
+
+    /* remove blue underline */
+    text-decoration: none;
+    
+    /* border */
+    border: 2px solid white;
+    border-radius: 30px;
+    
+    /* transitions */
+   
+    
+    /* other */
+    padding: 12px 30px;
+
+    font-weight: 600;
+    font-size: 15px;
+    font-family: arial;
+}
+  
+.center-img2 input[name=regist]:hover {
+    /* update text color and background color */
+    color:white;
+    background-color:rgb(10, 136, 204);
+    
+     /* transitions */
+    transition-duration: .2s;
+    -webkit-transition-duration: .11s;
+    -moz-transition-duration: .2s;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: arial;
+}
+
+.center-img2 input[name=sign] {
+    /* font */
+    color: rgb(34, 162, 231);
+    font-size: 20px;
+    font-family: helvetica;
+    background-color:white;
+    margin-bottom: 10px;
+
+    /* remove blue underline */
+    text-decoration: none;
+    
+    /* border */
+    border: 1px solid rgb(61, 182, 247);
+    border-radius: 30px;
+    
+    /* transitions */
+   
+    /* other */
+    padding: 12px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: arial;
+}
+  
+.center-img2 input[name=sign]:hover {
+    /* update text color and background color */
+    color:rgb(10, 136, 204);
+    background-color:rgba(10, 136, 204, 0.13);
+    
+     /* transitions */
+    transition-duration: .2s;
+    -webkit-transition-duration: .11s;
+    -moz-transition-duration: .2s;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: arial;
+}
+
+
+#zatemnenie {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#zatemnenie2 {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#okno {
+    width: 600px;
+    height: 650px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+    display: block;
+}
+
+#okno2 {
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+    display: block;
+}
+
+#zatemnenie:target {display: block;}
+#zatemnenie2:target {display: block;}
+
+.close {
+    color: white;
+    font-size: 15px;
+    font-family: helvetica;
+    background-color: rgb(34, 162, 231);
+    margin-bottom: 10px;
+
+    /* remove blue underline */
+    text-decoration: none;
+    
+    /* border */
+    border: 1px solid rgb(61, 182, 247);
+    border-radius: 25px;
+    float: left;
+    /* transitions */
+    width: 100px;
+    /* other */
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: arial;
+    margin: 10px;
+}
+
+.close:hover {
+    color: rgb(34, 162, 231);
+    background-color:rgba(10, 136, 204, 0.13);
+    float: left;
+     /* transitions */
+    transition-duration: .2s;
+    -webkit-transition-duration: .11s;
+    -moz-transition-duration: .2s;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: arial;
+    margin: 10px;
+}
+
+.topreg{
+    width: 100%;
+    height: 53px;
+    display:inline-block;
+}
+
+.centerreg{
+    margin-left: 25px;
+    padding-bottom: 25px;
+    display: block;
+}
+
+.content-text4{
+    font-weight: 600;
+    font-size: 23px;
+    color:black;
+    padding: 0;
+    font-family: arial;
+    float: left;
+}
+
+.logtext{
+    font-weight: 600;
+    font-size: 23px;
+    color:black;
+    padding: 0;
+    font-family: arial;
+    float: center;
+}
+
+
+.centerreg input[name=name], input[name=login], input[name=pass] {
+    /* font */
+    color: black;
+    font-size: 20px;
+    font-family: helvetica;
+    background-color:white;
+    margin-bottom: 22px;
+
+    /* remove blue underline */
+    text-decoration: none;
+    
+    /* border */
+    border: 2px solid rgb(34, 162, 231);
+    border-radius: 5px;
+    float: left;
+    /* transitions */
+    width: 90%;
+    /* other */
+    padding: 20px 12px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: arial;
+}
+
+.send{
+    color: white;
+    font-size: 15px;
+    font-family: helvetica;
+    background-color: rgb(34, 162, 231);
+    margin-bottom: 10px;
+
+    /* remove blue underline */
+    text-decoration: none;
+    
+    /* border */
+    border: 1px solid rgb(61, 182, 247);
+    border-radius: 25px;
+    float: right;
+    /* transitions */
+    width: 100px;
+    /* other */
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: arial;
+    margin: 10px;
+}
+
+.send:hover {
+    /* update text color and background color */
+    color:rgb(10, 136, 204);
+    background-color:rgba(10, 136, 204, 0.13);
+    float: right;
+     /* transitions */
+    transition-duration: .2s;
+    -webkit-transition-duration: .11s;
+    -moz-transition-duration: .2s;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: arial;
+    margin: 10px;
+}
+
+.blockmail{
+    margin-left: 27px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    float: left;
+
+}
+
+.mail{
+    display: block;
+    text-decoration: none;
+    color:rgb(50, 165, 226);
+}
+
+.mail-active{
+    display: block;
+    color:rgb(50, 165, 226);
+}
+
+.bottom{
+    margin-top: 270px;
+    margin-left: 27px;
+    display: flex;
+    flex-direction: column;
+    
+    width: 90%;
+
+   
+}
+
+.content-text5{
+    display: flex;
+   
+    font-weight: 600;
+    font-size: 15px;
+    color:black;
+    padding: 0;
+    font-family: arial;
+    text-align: left;
+    
+}
+
+.content-text6{
+    display: flex;
+    font-size: 15px;
+    color:grey;
+    padding: 0;
+    font-family: arial;
+    text-align: left;
+    
+}
