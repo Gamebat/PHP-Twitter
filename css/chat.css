@@ -1,0 +1,195 @@
+body{
+	background-image: url(../img/Twitter-Logo.png);
+    background-attachment: fixed;
+    background-size: 100%;
+	background-color: rgb(116, 202, 254);
+	background-repeat: no-repeat;
+}
+
+table{
+	word-wrap: normal;
+	table-layout: fixed;
+    width:100%;
+	background-color: rgba(255, 255, 255, 0.733);
+	height: 800px;
+}
+
+td {
+    word-wrap:break-word;
+	display: block;
+	
+}
+.messages{
+	width: 800px;
+	height: 800px;
+	margin: 0px auto;
+	overflow-y:scroll;
+	overflow-x: hidden;
+	border-radius: 24px;
+}
+
+.first{
+	font-size: 20px;
+	color: black;
+	float: inline-start;
+	border-collapse: separate;
+	border-radius: 40px 40px 40px 0px;
+	background:rgb(228, 166, 51);
+	max-width: 300px;
+	padding-left:15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 2px;
+	padding-right: 7px;
+	
+}
+
+.second{
+	margin-left: 5px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: black;
+	float: inline-start;
+	border-collapse: separate;
+	border-radius: 0px 40px 40px 40px;
+	background:rgb(228, 166, 51);
+	max-width: 600px;
+	padding-left:15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-right: 7px;
+}
+
+.send{
+	display: flex;
+	width: 800px;
+	height: 60px;
+	border-radius: 20px;
+	background-color: rgba(255, 255, 255, 0.733);
+	margin: auto;
+	margin-top: 2px;
+}
+
+.form{
+	margin: auto;
+}
+
+.news{
+	width: 620px;
+	height: 39px;
+	color: black;
+    font-size: 19px;
+    font-family: helvetica;
+	
+    
+    /* remove blue underline */
+    text-decoration: none;
+    
+    /* border */
+    border: 2px solid white;
+    border-radius: 20px;
+    
+    /* transitions */
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    
+    /* other */
+    background-color: inherit;
+    padding: 5px 20px;
+	outline:none;
+}
+
+.sumbit{
+    /* font */
+    color: black;
+    font-size: 19px;
+    font-family: helvetica;
+	
+    
+    /* remove blue underline */
+    text-decoration: none;
+    
+    /* border */
+    border: 2px solid white;
+    border-radius: 20px;
+    
+    /* transitions */
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    
+    /* other */
+    background-color: inherit;
+    padding: 4px 20px;
+}
+  
+.sumbit:hover {
+    /* update text color and background color */
+    color:white;
+    background-color:rgb(116, 202, 254);
+    
+     /* transitions */
+    transition-duration: .2s;
+    -webkit-transition-duration: .11s;
+    -moz-transition-duration: .2s;
+}
+
+.top{
+	display: flex;
+	margin: auto;
+	margin-top: 15px;
+	width: 800px;
+}
+
+.top img{
+	width: 57.6px;
+    height: 32.4px;
+}
+
+.top p{
+	font-size: 22px;
+}
+
+.exit{
+	margin-left: auto;
+}
+
+.sumbitexit{
+    /* font */
+    color: black;
+    font-size: 19px;
+    font-family: helvetica;
+	width: 140px;
+	margin-bottom: 10px;
+	background-color: rgba(255, 255, 255, 0.733);
+    
+    /* remove blue underline */
+    text-decoration: none;
+    
+    /* border */
+    border: 2px solid white;
+    border-radius: 25px;
+    
+    /* transitions */
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    
+    /* other */
+    
+    padding: 2px 10px;
+}
+  
+.sumbitexit:hover {
+    /* update text color and background color */
+    color:white;
+    background-color:rgb(116, 202, 254);
+    
+     /* transitions */
+    transition-duration: .2s;
+    -webkit-transition-duration: .11s;
+    -moz-transition-duration: .2s;
+}

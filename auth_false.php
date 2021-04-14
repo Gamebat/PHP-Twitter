@@ -48,7 +48,7 @@
     <div id="zatemnenie2">
         <form id="okno2" action="auth.php" method="post">  
             <div class="topreg">
-                <a href="#" class="close">Закрыть</a>
+                <a href="index.php" class="close">Закрыть</a>
                 <img class="imgclass3" src="img/Twitter-Logo.png">
                 <button class="send" type="submit">Далее</button>
                 
@@ -58,6 +58,7 @@
                 <p class="logtext">Войти в Twitter</p>
                 
 				<input type="text" id="login" name="login" placeholder="Введите логин">
+                <p class="false">Неверно введен логин или пароль</p>
                 <input type="pass" id="pass" name="pass" placeholder="Введите пароль">
 
             </div>

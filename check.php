@@ -17,9 +17,25 @@
     $pass = md5($pass."DanyaBD");
 
     $mysql = new mysqli('localhost','root','root','regist-bd');
-    $mysql->query("INSERT INTO `users` (`name`, `login`, `pass`) VALUES('$name', '$login', '$pass')");
-    
-    $mysql->close();
+    if (mysqli_connect_errno()) {
+        printf("Подключение к серверу MySQL невозможно. Код ошибки: %s<br>", mysqli_connect_error());
+        exit();
+    }
 
-    header ('Location: index.php');
+    $result = $mysql->query("SELECT * FROM `users` WHERE `login` = '$login'");
+    $user= $result->fetch_assoc();
+
+    if ($user == ''){
+        $mysql->query("INSERT INTO `users` (`name`, `login`, `pass`) VALUES('$name', '$login', '$pass')");
+    
+        $mysql->close();
+
+        header ('Location: index.php');
+    }
+    else{
+        header ('Location: reg_false.php#zatemnenie');
+        $mysql->close();
+    }
+
+    
 ?>

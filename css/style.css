@@ -9,6 +9,17 @@
     
 }
 
+.false{
+    display: flex;
+    font-weight: 600;
+    font-size: 15px;
+    color:red;
+    padding: 0;
+    font-family: arial;
+    float: left;
+   
+}
+
 html,body{
     height: 100%;
 }
@@ -271,7 +282,7 @@ nav ul {
 
 #okno2 {
     width: 600px;
-    height: 400px;
+    height: 350px;
     text-align: center;
     padding: 5px;
     border-radius: 10px;
@@ -380,6 +391,7 @@ nav ul {
     font-size: 15px;
     font-family: arial;
 }
+
 
 .send{
     color: white;

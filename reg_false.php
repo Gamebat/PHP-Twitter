@@ -21,7 +21,7 @@
     <div id="zatemnenie">
         <form id="okno" action="check.php" method="post">
             <div class="topreg">
-                <a href="#" class="close">Закрыть</a>
+                <a href="index.php" class="close">Закрыть</a>
                 <img class="imgclass3" src="img/Twitter-Logo.png">
                 <button class="send" type="submit">Далее</button>
                 
@@ -32,6 +32,7 @@
                 
 				<input type="text" id="name" name="name" placeholder="Имя">
 				<input type="text" id="login" name="login" placeholder="Логин">
+                <p class="false">Пользователь с таким логином уже существует, попробуйте ещё раз</p>
                 <input type="pass" id="pass" name="pass" placeholder="Пароль">
 
             </div>
@@ -48,7 +49,7 @@
     <div id="zatemnenie2">
         <form id="okno2" action="auth.php" method="post">  
             <div class="topreg">
-                <a href="#" class="close">Закрыть</a>
+                <a href="index.php" class="close">Закрыть</a>
                 <img class="imgclass3" src="img/Twitter-Logo.png">
                 <button class="send" type="submit">Далее</button>
                 
